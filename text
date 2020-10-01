@@ -1,0 +1,35 @@
+Cross-modal embeddings... 2017
+recipe 1M+ dataset - 1M recipes,800k img
+training-joint embeddings of recipes and images
+high capacity models - neural networks - CNN,RNN
+Cross modal - perception that involves interaction btw 2 or more sensory modalities(img data, depth, points,etc)
+
+Understanding and predicting... 2016
+large no. of ppl(200k+) and recipes(400k+)
+user recipe-user history,social connectn,temporal,geographic
+predicts food type and recipe
+explores reltn btw food types & ingrdnt
+
+deep-based ingredient... 2016
+understanding ingredients | ingredients < food categories
+ingrdnt recogn + food categrzn(fuzzy & mutual relationship)
+Zero-shot recipe retrieval(img retrieval,matching,combinatn)
+
+geolocalized modeling... 2015
+food pics-poopular,useless tags(annotations)
+exploits geographical info-visual recognition=> less complex
+geogrphcl locatn,landmark,tourism spot, 3d scene model,navgtn
+
+Recipe recognition... 2015
+automatic systms for img recipe recognitn
+vision+text info: 1 image + corresponding text
+deep learning - image+text.  Dataset- parsed html data
+transfer learning- knowledge transfer btw 2 datasets.
+
+Deep visual sematic... 2015
+img+sentence(descriptn) - CNN + RNN -> NLP focus
+intermodal correspondence btw lang & visual data
+alignmt model-CNN(img),bidirec RNN(sentnc),struct.objective
+descrip. generated-semantic alignments
+
+
