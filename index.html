@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FOO&lt;D&gt;CODER</title>
+        <style>
+            .name{
+                background-color: gray;
+                background-position: top;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+
+                background-image: url("http://oneplatter.com/plan/wp-content/uploads/2015/11/website-food-image-800x300.jpg");
+            }
+            h1{
+                color:#7094db;
+                text-align: center;
+                position: absolute;
+                bottom: 25%;
+                top: 48%;
+                left: 22%;
+                right: auto;
+                transform: translate(0%, 30%);
+            }
+            span{
+                color:#9966ff;
+            }
+            .row{
+                height: 50%;
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+            .attach{
+                bottom: 0;
+                background-color:floralwhite;
+            }
+            h3{
+                text-align: center;
+                position: absolute;
+                bottom: 25%;
+                top: 0%;
+                left: 30%;
+                right: auto;
+                transform: translate(0%, 30%);
+            }
+            input[type=file]{
+                text-align: center;
+                position: absolute;
+                margin: 0px;
+                font-size: 1.3em;
+                transform: translate(110%, 400%);
+                text-align: center;
+            }
+            input[type=submit]{
+                text-align: center;
+                position: absolute;
+                margin: 0px;
+                transform: translate(60%, 400%);
+                font-size: 1.3em;
+                justify-content: center;
+                text-align: center;
+            }
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div>
+            <div class="row name">
+                <h1 style="font-size: 100px;"class="text-center font-weight-bolder">FOO<span>&lt;D&gt;</span>CODER</h1>
+            </div>
+            <div class="row attach">
+                <h3>Upload a picture of a food to get it's recipe!</h3>
+                <form method ='post' enctype=multipart/form-data>
+                <div class="container">
+                    <div class="row">
+                      <div class="col" style="padding-left: 50px;">
+                        <input type="file" name="file">
+                      </div>
+                      <div class="col">
+                        <input type="submit" value="UPLOAD">
+                        <ul class="actions">
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
